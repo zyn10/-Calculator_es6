@@ -1,0 +1,56 @@
+body 
+{
+  padding: 0;
+  margin: 0;
+  background-color: #B6DFE7;
+}
+.opr 
+{
+  grid-row: span 3;
+	background-color: #52C9DC;
+}
+.expressions
+{ 
+  padding-top: 40px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+}
+.expressions > button
+{ 
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 22px;
+  border: 10px solid black;
+  background-color:#1A1B28;
+}
+.expressions > button:hover
+ {
+  background-color:#52C9DC;
+}
+.Result 
+{color: aliceblue;
+  grid-column: 1 / -1;
+  background-color:#1A1B28;
+  padding: 20px;
+}
+.Result .previous-operand .current-operand 
+{
+	color: whitesmoke;
+	font-size: 1.5rem;
+} 
+footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color:black;
+}
+.high
+{
+background-color: #52C9DC;
+
+}
